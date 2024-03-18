@@ -64,13 +64,18 @@ const Quiz = ({ questions }) => {
   }
 
 
+  const handleTimeup = ()=>{
+
+    alert("Time is up");
+  }
+
   return (
     <div className="quiz-container">
    
    { !showResult ? (
     <>
 
-    <AnswerTimer/>
+    <AnswerTimer duration={10} onTimeUp={handleTimeup} />
       <span className="active-question-no">{currentQuestion + 1}/ </span>
       <span className="total-question">{questions.length}</span>
       <h2>{question}</h2>

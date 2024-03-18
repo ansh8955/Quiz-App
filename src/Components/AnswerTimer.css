@@ -1,11 +1,5 @@
-/* .answer-timer-container{
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-bottom: 1px solid ;
-}
+
 
 .progress{
 
@@ -13,4 +7,6 @@
     transition-duration: 1s;
     width: 0;
     transition-timing-function: linear;
-} */
+    background-color: red;
+
+}
