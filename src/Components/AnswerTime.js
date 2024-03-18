@@ -44,6 +44,7 @@ return(
 style={{
 
 width:`${progressLoaded}%`,
+
 }}
 
 className='progress'>
