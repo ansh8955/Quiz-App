@@ -11,3 +11,11 @@
     
 
 }
+
+.selected-answer{
+    cursor: pointer;
+}
+
+.list{
+    cursor: pointer;
+}

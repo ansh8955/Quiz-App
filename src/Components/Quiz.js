@@ -89,7 +89,7 @@ setTimeout(()=>{
       <span className="total-question">{questions.length}</span>
       <h2>{question}</h2>
 
-      <ul>
+      <ul className="list">
         {choices.map((answer, index) => (
           <li
             onClick={() => onAnswerClick(answer, index)}
